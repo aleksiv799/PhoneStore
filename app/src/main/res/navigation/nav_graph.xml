@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.my.udacity.phonestore.presentation.LoginFragment"
+        android:label="Login Screen" >
+        <action
+            android:id="@+id/action_loginFragment_to_introFragment"
+            app:destination="@id/introFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.my.udacity.phonestore.presentation.IntroFragment"
+        android:label="Introduction" >
+        <action
+            android:id="@+id/action_introFragment_to_instructionFragment"
+            app:destination="@id/tutorialFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorialFragment"
+        android:name="com.my.udacity.phonestore.presentation.InstructionFragment"
+        android:label="Tutorial Screen" >
+        <action
+            android:id="@+id/action_instructionFragment_to_listOfPhonesFragment"
+            app:destination="@id/listOfPhonesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listOfPhonesFragment"
+        android:name="com.my.udacity.phonestore.presentation.ListOfPhonesFragment"
+        android:label="List Screen" >
+        <action
+            android:id="@+id/action_listOfPhonesFragment_to_addPhoneFragment"
+            app:destination="@id/addPhoneFragment" />
+        <action
+            android:id="@+id/action_global_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPhoneFragment"
+        android:name="com.my.udacity.phonestore.presentation.AddPhoneFragment"
+        android:label="Add Phone"
+        tools:layout="@layout/fragment_add_item" >
+
+
+    </fragment>
+</navigation>

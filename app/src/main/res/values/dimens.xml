@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin_8">8dp</dimen>
+    <dimen name="medium_text_size_24">24sp</dimen>
+    <dimen name="button_indent_margin_32">32dp</dimen>
+    <dimen name="instruction_text_18">18sp</dimen>
+    <dimen name="default_margin_16">16dp</dimen>
+    <dimen name="welcome_text_34">34sp</dimen>
+    <dimen name="text_intro_18">18sp</dimen>
+    <dimen name="default_elevation_4">4dp</dimen>
+    <dimen name="default_image_size_100">100dp</dimen>
+</resources>

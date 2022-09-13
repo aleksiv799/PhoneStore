@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PhoneStore</string>
+    <string name="welcome">Welcome to the mobile store!\n</string>
+    <string name="introduce">\nHere you can choose a phone for yourself or as a gift to someone from friends or relatives!</string>
+    <string name="instruction">\nIn this application, you can add an item and view an existing item. in the product addition window, specify the name, description, OS version and price and then click the add product button.</string>
+    <string name="button_label_save">Save</string>
+    <string name="button_label_cancel">Cancel</string>
+    <string name="tv_label_version_os">Version OS:</string>
+    <string name="hint_enter_name">Enter a name...</string>
+    <string name="btn_go_to_the_list_of_phones">Go to the list of phones</string>
+    <string name="btn_label_skip">Skip</string>
+    <string name="hint_enter_login">Enter login</string>
+    <string name="hint_enter_password">Enter password</string>
+    <string name="btn_label_sign_in">Sign In</string>
+    <string name="btn_label_sign_up">Sign Up</string>
+    <string name="tv_label_name">Name:</string>
+    <string name="tv_label_company">Company:</string>
+    <string name="tv_label_version">Version:</string>
+    <string name="tv_label_description">Description:</string>
+    <string name="menu_label_logout">Logout</string>
+</resources>
