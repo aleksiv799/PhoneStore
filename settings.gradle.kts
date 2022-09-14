@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "PhoneStore"
-include ':app'
+include ("app")
