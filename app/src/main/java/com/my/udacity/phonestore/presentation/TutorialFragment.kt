@@ -8,7 +8,7 @@ import com.my.udacity.phonestore.R
 import com.my.udacity.phonestore.databinding.FragmentInstructionBinding
 
 
-class InstructionFragment : Fragment(R.layout.fragment_instruction) {
+class TutorialFragment : Fragment(R.layout.fragment_instruction) {
 
     private lateinit var binding: FragmentInstructionBinding
 
@@ -22,7 +22,7 @@ class InstructionFragment : Fragment(R.layout.fragment_instruction) {
     }
 
     private fun onNextScreen() {
-        findNavController().navigate(R.id.action_instructionFragment_to_listOfPhonesFragment)
+        findNavController().navigate(R.id.action_tutorialFragment_to_listOfPhonesFragment)
     }
 
 

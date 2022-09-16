@@ -2,6 +2,7 @@ package com.my.udacity.phonestore.presentation
 
 import android.os.Bundle
 import android.view.*
+import androidx.activity.addCallback
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
@@ -29,11 +30,14 @@ class ListOfPhonesFragment : Fragment() {
             container,
             false
         )
+
         binding.fab.setOnClickListener(
             Navigation.createNavigateOnClickListener(
                 ListOfPhonesFragmentDirections.actionListOfPhonesFragmentToAddPhoneFragment()
             )
         )
+
+
         setHasOptionsMenu(true)
         return binding.root
     }
@@ -71,5 +75,6 @@ class ListOfPhonesFragment : Fragment() {
         }
         return super.onOptionsItemSelected(item)
     }
+
 
 }

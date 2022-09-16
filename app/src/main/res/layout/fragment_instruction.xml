@@ -8,7 +8,7 @@
         android:background="@drawable/bg_default_gradient"
         android:gravity="center"
         android:orientation="vertical"
-        tools:context="com.my.udacity.phonestore.presentation.InstructionFragment">
+        tools:context="com.my.udacity.phonestore.presentation.TutorialFragment">
 
         <TextView
             android:layout_width="match_parent"
